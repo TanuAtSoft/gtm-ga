@@ -22,7 +22,7 @@ function App() {
       <button id="clickBtn" onClick={handleClick}>
         Get Products
       </button>
-      <div style={{margin:"auto",padding:"40px",display:"flex",flexWrap: "wrap", gap:"40px"}}>
+      <div style={{margin:"auto",padding:"30px",display:"flex",flexWrap: "wrap", gap:"40px"}}>
       {data &&
         data.map((item, id) => {
           return (
